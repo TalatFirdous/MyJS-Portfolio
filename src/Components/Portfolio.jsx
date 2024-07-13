@@ -19,9 +19,10 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/BG3.png";
+import image from "../images/socials/snippet.png";
+import { title } from "process";
 
-const imageAltText = "Snippet from my Github Account";
+const imageAltText = "Snippet from my resume";
 
 /**
  * Project list
@@ -31,28 +32,14 @@ const imageAltText = "Snippet from my Github Account";
  */
 const projectList = [
   {
-    title: "Learning Management System",
-    description:
-      "Developed a Learning Management System for a university project. It includes features like course management, user management, and quiz management.",
-    url: "https://github.com/Yashasvi-30/Learning-Management-System-",
+    title: "Resume Site",
+    description: "created my resume website ",
+    url: "https://talatfirdous.github.io/MyResume/",
   },
   {
-    title: "Myntra Clone",
-    description:
-      "Developed a Myntra Clone for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/MyMyntraClone",
-  },
-  {
-    title: "Amazon Clone",
-    description:
-      " Developed an Amazon Clone for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/AmazonClone",
-  },
-  {
-    title: "Supermarket Management System",
-    description:
-      "Developed a Supermarket Management System for a university project. It includes features like product management, user management, and cart management.",
-    url: "https://github.com/Yashasvi-30/Supermarket-JAVA-Proj",
+    title: "pricing table",
+    description: "creted a data recharge website.",
+    url: "https://github.com/TalatFirdous/price-table",
   },
 ];
 
